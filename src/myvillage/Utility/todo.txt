@@ -1,0 +1,8 @@
+baki
+
+
+1# serch villager
+2# add workplace to data model
+3# do everything for houses
+4# do everything for lands
+5# retrive all stats

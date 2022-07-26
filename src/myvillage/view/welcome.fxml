@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myvillage.view.WelcomeController">
+   <children>
+      <Label alignment="CENTER" layoutX="61.0" layoutY="51.0" prefHeight="57.0" prefWidth="423.0" text="Welcome to MY VILLAGE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="editVillageName" layoutX="143.0" layoutY="154.0" prefHeight="36.0" prefWidth="259.0" promptText="Village name">
+         <font>
+            <Font size="16.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="editAddress" layoutX="144.0" layoutY="211.0" prefHeight="36.0" prefWidth="259.0" promptText="Address">
+         <font>
+            <Font size="16.0" />
+         </font></JFXTextField>
+      <JFXButton fx:id="startButton" layoutX="231.0" layoutY="305.0" onAction="#startApp" prefHeight="49.0" prefWidth="97.0" ripplerFill="#f44646" style="-fx-border: solid; -fx-border-color: green; -fx-border-radius: 5px;" text="Start">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

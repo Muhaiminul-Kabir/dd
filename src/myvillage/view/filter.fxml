@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myvillage.view.FilterController">
+   <children>
+      <JFXCheckBox fx:id="occupationFilterCheckBox" layoutX="21.0" layoutY="73.0" text="Occupation" />
+      <JFXComboBox fx:id="occupationOptionComboBox" layoutX="131.0" layoutY="69.0" prefHeight="25.0" prefWidth="175.0" />
+      <JFXCheckBox fx:id="workPlaceFilterCheckBox" layoutX="21.0" layoutY="201.0" text="Workplace" />
+      <JFXCheckBox fx:id="eduFilterCheckBox" layoutX="21.0" layoutY="169.0" text="Education" />
+      <JFXCheckBox fx:id="cellFilterCheckBox" layoutX="21.0" layoutY="366.0" text="Mobile No." />
+      <JFXComboBox fx:id="eduOptionComboBox" layoutX="131.0" layoutY="165.0" prefHeight="25.0" prefWidth="175.0" />
+      <JFXCheckBox fx:id="ownsLandsFilterCheckBox" layoutX="21.0" layoutY="397.0" text="Owns Lands" />
+      <JFXComboBox fx:id="workplaceOptionComboBox" layoutX="131.0" layoutY="197.0" prefHeight="25.0" prefWidth="175.0" />
+      <JFXCheckBox fx:id="birthdayRangeCheckBox" layoutX="21.0" layoutY="331.0" text="Birthday Range" />
+      <JFXComboBox fx:id="bloodgroupOptionComboBox" layoutX="131.0" layoutY="133.0" prefHeight="25.0" prefWidth="175.0" />
+      <JFXCheckBox fx:id="incomeRangeCheckBox" layoutX="21.0" layoutY="298.0" text="Income range" />
+      <JFXComboBox fx:id="genderOptionComboBox" layoutX="131.0" layoutY="101.0" prefHeight="25.0" prefWidth="175.0" />
+      <JFXCheckBox fx:id="bloodGroupFilterCheckBox" layoutX="21.0" layoutY="137.0" text="Blood group" />
+      <JFXCheckBox fx:id="genderFilterCheckBox" layoutX="21.0" layoutY="105.0" text="Gender" />
+      <JFXCheckBox fx:id="houseNoFilterCheckBox" layoutX="21.0" layoutY="233.0" text="House No." />
+      <JFXCheckBox fx:id="emailFilterCheckBox" layoutX="21.0" layoutY="265.0" style="-fx-background-color: white;" text="E-mail" />
+      <TextField layoutX="131.0" layoutY="231.0" prefHeight="25.0" prefWidth="175.0" />
+      <TextField layoutX="131.0" layoutY="262.0" prefHeight="25.0" prefWidth="175.0" />
+      <TextField fx:id="minRangeTextField" layoutX="131.0" layoutY="295.0" prefHeight="25.0" prefWidth="77.0" />
+      <TextField fx:id="maxRangeTextField" layoutX="229.0" layoutY="295.0" prefHeight="25.0" prefWidth="77.0" />
+      <TextField fx:id="cellTextField" layoutX="131.0" layoutY="362.0" prefHeight="25.0" prefWidth="175.0" />
+      <Label layoutX="21.0" layoutY="32.0" prefHeight="25.0" prefWidth="92.0" text="Filters">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="cancelButton" layoutX="254.0" layoutY="466.0" onAction="#cancelFilterActionEvent" text="CANCEL" />
+      <JFXButton fx:id="applyButton" layoutX="193.0" layoutY="466.0" onAction="#applyFilterActionEvent" text="APPLY" />
+      <JFXDatePicker fx:id="startRangeTextField" layoutX="131.0" layoutY="327.0" prefHeight="25.0" prefWidth="92.0" />
+      <JFXDatePicker fx:id="endRangeTextField" layoutX="229.0" layoutY="328.0" prefHeight="25.0" prefWidth="84.0" />
+   </children>
+</AnchorPane>
